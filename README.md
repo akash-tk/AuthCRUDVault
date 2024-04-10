@@ -8,13 +8,30 @@ This project is designed to implement a secure Node.js backend application. It f
 - **CRUD API**: A RESTful API allows for creating, reading, updating, and deleting information from a database.
 - **File Upload & Download**: Users can upload files to the server and retrieve them through secure download links.
 
-## Prerequisites
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
 - **Node.js**: You can download it from [Node.js official website](https://nodejs.org/).
 - **npm**: Comes with Node.js. After installing Node.js, run `npm -v` in a terminal to ensure npm is installed.
 - **MongoDB Database**: Set up a MongoDB instance either locally or use a cloud service like [MongoDB Atlas](https://www.mongodb.com/atlas/database).
+
+### Installation
+A step-by-step series of examples that tell you how to get a development environment running:
+
+Clone the repository:
+```bash
+   git clone https://github.com/akash-tk/AuthCRUDVault.git
+   cd AuthCRUDVault
+```
+
+Install the necessary node modules:
+```bash
+  npm install
+```
 
 ## Configuration
 
@@ -29,6 +46,12 @@ JWT_SECRET=your-jwt-secret
 REFRESH_TOKEN_SECRET=your-refresh-token-secret
 MONGODB_URI=mongodb+srv://your-db-connection-string
 ```
+
+Start the server:
+```bash
+node server.js
+```
+The server will start on port 3000 or the next available port.
 
 ## Usage
 
