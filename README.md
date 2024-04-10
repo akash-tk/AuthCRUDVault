@@ -21,16 +21,16 @@ This project is designed to implement a secure Node.js backend application. It f
    - Send a POST request to `/login` with `username` and `password` to receive a JWT token.
 
 4. **CRUD Operations:**
-   - Send a POST to `/api/resource` to create a new resource.
-   - Send a GET to `/api/resource` to read available resources.
-   - Send a PUT to `/api/resource/:id` to update an existing resource.
-   - Send a DELETE to `/api/resource/:id` to delete a resource.
+   - Send a POST to `/api/users` to create a new user.
+   - Send a GET to `/api/users` to read available users.
+   - Send a PUT to `/api/users/:id` to update an existing user.
+   - Send a DELETE to `/api/users/:id` to delete a user.
 
 5. **File Upload:**
-   - Send a POST request to `/upload` with a file in the form-data to upload a file.
+   - Send a POST request to `/api/upload` with a file in the form-data to upload a file.
 
 6. **File Download:**
-   - Access `/download/:filename` to download the corresponding file.
+   - Access `/api/download/:filename` to download the corresponding file.
 
 ## Security
 
