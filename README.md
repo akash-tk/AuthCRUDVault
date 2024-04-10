@@ -24,10 +24,10 @@ To get your application running, you need to set up your environment variables:
 2. Add the following variables to the `.env` file, replacing the placeholders with your actual data:
 
 ```env
-MONGODB_URI=mongodb+srv://your-db-connection-string
+PORT=3000
 JWT_SECRET=your-jwt-secret
 REFRESH_TOKEN_SECRET=your-refresh-token-secret
-PORT=3000
+MONGODB_URI=mongodb+srv://your-db-connection-string
 ```
 
 ## Usage
